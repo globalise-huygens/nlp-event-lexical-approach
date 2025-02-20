@@ -56,6 +56,10 @@ See the table underneath for precision, recall and f1 score of the lexical appro
 | F1   | 0.34   |
 
 
+## Features of the lexicon
+
+The lexicon contains 610 unique strings referring to 44 unique event types. For an overview of which events are represented in the lexicon, see [additional material]((https://github.com/globalise-huygens/nlp-event-lexical-approach/blob/main/README.md#event-types-represented-in-the-lexicon))
+
 ## Use
 
 ### 5.1 General
@@ -88,9 +92,55 @@ A word2vec model represents semantics that it encounters in its training data. F
 
 ## The GLOBALISE hierarchical organization of Dynamic Events
 
-
-
 ![Taxonomy_CEO_GLOBALISE_3-Pagina-1](https://github.com/user-attachments/assets/15a4dada-84e5-4cb7-a4cb-c73d59e2465a)
+
+## Event types represented in the lexicon
+
+> Replacing
+Leaving
+Damaging
+Punishing
+Communication
+Sinking
+ChangeOfPossession
+ScalarChange
+Buying
+TakingUnderControl
+Trade
+FallingIll
+ViolentContest
+HavingInPossession
+SocialStatusChange
+SocialInteraction
+Request
+BeingInARelationship
+Killing
+Collaboration
+Invasion
+Unrest
+BeingDead
+ForceToAct
+FinancialTransaction
+BeingAtAPlace
+StaticEvent
+Giving
+Transportation
+Production
+BeingLeader
+Attacking
+Translocation
+InternalChange
+BeingInConflict
+BeingInDebt
+DynamicEvent
+Selling
+Uprising
+Destroying
+Getting
+Dying
+Arriving
+Voyage
+
 
 
 
