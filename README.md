@@ -30,7 +30,7 @@ We extracted strings (words) that were annotated at least 2 times with the same 
 ### 3.2 Lexicon_v2
 
 #### Using a word2vec model
-The biggest addition to this version of the lexicon came from an elaborate word2vec search using a word2vec model trained on the VOC corpus. If you do not know what a word2vec model is, see the [Additional material] section for an explanation. I used the first version of the lexicon as a ‘seed’. This means I put in a word from the first lexicon and look for the most similar words according to the word2vec model. I went through them, asking for advice or consulting the WNT when necessary, and added them to Lexicon_v2 if I agreed with the word2vec model. Sometimes I would use words I accidentally came across while doing this task, either through word2vec or through the WNT, again as a new seed. This was the biggest update to the lexicon of all updates leading up to the release.
+The biggest addition to this version of the lexicon came from an elaborate word2vec search using a word2vec model trained on the VOC corpus. If you do not know what a word2vec model is, see the [Additional material](https://github.com/globalise-huygens/nlp-event-lexical-approach/blob/main/README.md#what-is-a-word2vec-model) section for an explanation. I used the first version of the lexicon as a ‘seed’. This means I put in a word from the first lexicon and look for the most similar words according to the word2vec model. I went through them, asking for advice or consulting the WNT when necessary, and added them to Lexicon_v2 if I agreed with the word2vec model. Sometimes I would use words I accidentally came across while doing this task, either through word2vec or through the WNT, again as a new seed. This was the biggest update to the lexicon of all updates leading up to the release.
 
 #### Feedback annotation round 3 (Expert input)
 Since we use the lexicon as a pre-annotation step for human annotation, any type 	of token-type pair that has been observed to not fit well, for example because of 	ambiguity, can be deleted. Some token-type pairs were deleted from the lexicon 	because of this. Additionally, I asked annotators to provide suggestions for the 		lexicon that they come across during annotation that were not in the lexicon yet. These were added.
@@ -49,6 +49,9 @@ The current version of the lexicon was evaluated on the complete training data s
 
 See the table underneath for precision, recall and f1 score of the lexical approach on event trigger detection (no classification). Since the token-type pairs were selected for their lack of ambiguity, we expect classification to show very similar scores with probably a bit less precision. We have yet to verify this officially. 
 
+| P  | 0.83    |
+| R | 0.22     |
+| F1   | 0.34   |
 
 
 ## Use
@@ -83,6 +86,9 @@ A word2vec model represents semantics that it encounters in its training data. F
 
 ## The GLOBALISE hierarchical organization of Dynamic Events
 
+
+
+![Taxonomy_CEO_GLOBALISE_3-Pagina-1](https://github.com/user-attachments/assets/15a4dada-84e5-4cb7-a4cb-c73d59e2465a)
 
 
 
