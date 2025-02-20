@@ -73,7 +73,7 @@ _upperclass_1_ - the event type one step above the event type referred to in the
 
 _upperclass_2_  - the event type two steps above the event type referred to in the GLOBALISE event ontology/taxonomy (see section 7.2)
 
-## Additional 
+## Additional materal
 
 ### What is a word2vec model?
 
