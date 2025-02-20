@@ -49,6 +49,8 @@ The current version of the lexicon was evaluated on the complete training data s
 
 See the table underneath for precision, recall and f1 score of the lexical approach on event trigger detection (no classification). Since the token-type pairs were selected for their lack of ambiguity, we expect classification to show very similar scores with probably a bit less precision. We have yet to verify this officially. 
 
+| score | value|
+| -------- | ------- |
 | P  | 0.83    |
 | R | 0.22     |
 | F1   | 0.34   |
