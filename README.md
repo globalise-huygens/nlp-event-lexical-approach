@@ -66,7 +66,7 @@ The lexicon is a first step towards helping you to search for concepts instead o
 
 The concepts (i.e., event types) itself are organized in a hierarchy. We therefore know that every instance of “aenkomst” which refers to Arriving also refers to Translocation, because Arriving is a type of Translocation. By doing so, events can be grouped on more or less fine grained levels of semantics. 
 
-### 5.1 Explanation of the columns in Lexicon_release1.csv
+### 5.1 Explanation of the columns in lexicon_release1.csv
 
 _tokens_ - these are the strings looked for in the corpus
 
