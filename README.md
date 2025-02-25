@@ -17,7 +17,7 @@ The lexicon was built to serve as a pre-annotation lexicon, which it is also use
 
 The lexicon was created through an iterative process of annotation analysis, expert input and feedback and synonym / spelling variation search through using a specialized word2vec model. We will go through the creation of each version of the lexicon, leading up to this release. 
 
-### 3.1 Lexicon_v1
+### Lexicon_v1
 
 The first version of the lexicon was a combination of (manual) expert input and automatic analysis of annotation round 2
 
@@ -27,7 +27,7 @@ Based on experience with the corpus, experts provided strings (words) and the ev
 #### Automatic analysis of annotation round 2
 We extracted strings (words) that were annotated at least 2 times with the same 	event class. These pairs were evaluated manually and added to the lexicon.
 
-### 3.2 Lexicon_v2
+### Lexicon_v2
 
 #### Using a word2vec model
 The biggest addition to this version of the lexicon came from an elaborate word2vec search using a word2vec model trained on the VOC corpus. If you do not know what a word2vec model is, see the [Additional material](https://github.com/globalise-huygens/nlp-event-lexical-approach/blob/main/README.md#what-is-a-word2vec-model) section for an explanation. I used the first version of the lexicon as a ‘seed’. This means I put in a word from the first lexicon and look for the most similar words according to the word2vec model. I went through them, asking for advice or consulting the WNT when necessary, and added them to Lexicon_v2 if I agreed with the word2vec model. Sometimes I would use words I accidentally came across while doing this task, either through word2vec or through the WNT, again as a new seed. This was the biggest update to the lexicon of all updates leading up to the release.
@@ -35,12 +35,12 @@ The biggest addition to this version of the lexicon came from an elaborate word2
 #### Feedback annotation round 3 (Expert input)
 Since we use the lexicon as a pre-annotation step for human annotation, any type 	of token-type pair that has been observed to not fit well, for example because of 	ambiguity, can be deleted. Some token-type pairs were deleted from the lexicon 	because of this. Additionally, I asked annotators to provide suggestions for the 		lexicon that they come across during annotation that were not in the lexicon yet. These were added.
 
-### 3.3 Lexicon_v3
+### Lexicon_v3
 
 #### Expert feedback
 Once again, we evaluated the lexicon after using lexicon_v2 for pre-annotation. Again, some token-type pairs were deleted and some were added. This was a smaller update, but an important one since it was a practical human evaluation of the bigger word2vec update. 
 
-### 3.4 Lexicon_v4 **(this release)**
+### Lexicon_v4 **(this release)**
 
 Small additions such as the addition of spelling variations and token-type pairs that experts came across during their regular work at GLOBALISE were added. This was a very small update.
 
@@ -62,7 +62,7 @@ The lexicon contains 610 unique strings referring to 44 unique event types. For 
 
 ## Use
 
-### 5.1 General
+### General
 
 The lexicon is a first step towards helping you to search for concepts instead of literal words in the transcribed VOC corpus when it comes to events. You can group, for example, on “Destroying”, and thereby search for all these terms in the corpus: 
 
@@ -70,7 +70,7 @@ The lexicon is a first step towards helping you to search for concepts instead o
 
 The concepts (i.e., event types) itself are organized in a hierarchy. We therefore know that every instance of “aenkomst” which refers to Arriving also refers to Translocation, because Arriving is a type of Translocation. By doing so, events can be grouped on more or less fine grained levels of semantics. 
 
-### 5.1 Explanation of the columns in lexicon_release1.csv
+### Explanation of the columns in lexicon_release1.csv
 
 _tokens_ - these are the strings looked for in the corpus
 
