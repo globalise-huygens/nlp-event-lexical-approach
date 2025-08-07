@@ -1,6 +1,8 @@
 # Lexical event extraction for GLOBALISE
 
 This document serves as documentation on the lexical approach to event extraction for GLOBALISE that was run on the complete corpus in February 2025. This is the first release of our lexical approach. Updates may follow.
+If you prefer a more friendly read, check out the [blogpost](https://globalise.huygens.knaw.nl/yes-okay-but-what-were-they-doing/)!
+
 
 ## Preliminaries
 
