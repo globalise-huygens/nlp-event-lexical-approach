@@ -144,6 +144,11 @@ Arriving
 Voyage
 
 
+## Second release
+
+_lexicon_release2.csv_ is the second version of our lexicon. It is an improved version of the first release, with a few adaptations and some extra token-type pairs. The exact changes can be tracked in the closed (and open) issues in this repo. All closed issues are changes taken into account in the second release, and all the open ones are either partly resolved or not resolved in the second release. For reasons why to resolve or not resolve issues, see the comments in the issues themselves.
+
+
 
 
 
