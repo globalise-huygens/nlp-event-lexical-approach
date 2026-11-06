@@ -80,6 +80,8 @@ straffen; gestraft; straft; testrafften; straffe,isOfType,Punishing,SocialIntera
 straf; straffe; straff,evokes,Punishing,SocialInteraction,DynamicEvent
 oogst; oogsten; telen; oegsten,evokes,Production,DynamicEvent,
 gevlugt; vlugten; vlugt,isOfType,Leaving,Translocation,DynamicEvent
+executeren; executeeren,isOfType,Punishing,SocialInteraction,DynamicEvent
+executeren; executeeren,isOfType,Killing,ViolentContest,SocialInteraction
 gaande,isOfType,Translocation,DynamicEvent,
 compareerde,evokes,BeingAtAPlace,StaticEvent,
 aangecomen; aengecomen; gearriveert; gearriveerd,isOfType,Arriving,Translocation,DynamicEvent
